@@ -3,10 +3,10 @@ from time import sleep, strftime, time
 import subprocess
 
 sense = SenseHat()
-sense.low_light = True
+#sense.low_light = True
 
 # Set up colors
-white = (125, 125, 125)
+white = (150, 150, 150)
 red = (255, 0, 0)
 green = (0, 255, 0)
 
