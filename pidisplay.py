@@ -14,7 +14,7 @@ green = (0, 255, 0)
 display_mode = 0   # 0 = time, 1 = temperature, 2 = humidity
 last_display_mode = 0  # keep track of last display mode
 last_active_time = time() # keep track of the last active time
-inactive_time = 3  # number of seconds to display the last display mode before switching back to the time display
+inactive_time = 4  # number of seconds to display the last display mode before switching back to the time display
 
 # Define functions
 def get_temperature():
